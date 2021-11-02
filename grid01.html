@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A simple example: grid-auto-rows</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 40px;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 240px 240px 240px;
+        grid-auto-rows: 100px;
+        gap: 24px;
+        background-color: #fff;
+        color: #444;
+      }
+      .box {
+        background-color: rgb(120, 70, 123);
+        border: 5px solid rgb(88, 55, 112);
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-family: "NicolasCochinLTPro-Regular", serif;
+        font-size: 64px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="box a">A</div>
+      <div class="box b">B</div>
+      <div class="box c">C</div>
+      <div class="box d">D</div>
+      <div class="box e">E</div>
+      <div class="box f">F</div>
+    </div>
+  </body>
+</html>
