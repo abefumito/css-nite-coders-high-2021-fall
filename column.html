@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Column</title>
+    <meta charset="utf-8" />
+    <style>
+      :root {
+        /* Font Scale */
+        --fontScaleL7: calc(1rem * 8 / 1); /* 8rem 128px */
+        --fontScaleL6: calc(1rem * 8 / 2); /* 4rem 64px h1 */
+        --fontScaleL5: calc(1rem * 8 / 3); /* 2.67rem 42.7px */
+        --fontScaleL4: calc(1rem * 8 / 4); /* 2rem 32px h2 */
+        --fontScaleL3: calc(1rem * 8 / 5); /* 1.6rem 25.6px */
+        --fontScaleL2: calc(1rem * 8 / 6); /* 1.33333rem 21.3px h3 */
+        --fontScaleL1: calc(1rem * 8 / 7); /* 1.14286rem 18.3px */
+        --fontScaleM: calc(1rem); /* 1rem 16px */
+        --fontScaleS1: calc(1rem * 8 / 9); /* 0.88889rem 14.2px */
+        --fontScaleS2: calc(1rem * 8 / 11); /* 0.8rem 12.8px */
+        --fontScaleS3: calc(1rem * 8 / 12); /* 0.73rem 11.6px */
+        --fontScaleS4: calc(1rem * 8 / 13); /* 0.67rem 10.66 */
+        /* Font Family */
+        --fontFamilyJP: TsukuAOldMinPr6-R, serif; /* 日本語本文 レギュラーウェイト */
+        --fontFamilyJpBold: TsukuAOldMinPr6-B, serif; /* 日本語見出し */
+        --fontFamilyEn: NicolasCochinLTPro-Regular, serif; /* 英語本文 */
+        --fontFamilyEnBold: NicolasCochinLTPro-Black, serif; /* 英語見出し */
+        --fontFamilyEnPrimary: NicolasCochinLTPro-Regular, TsukuAOldMinPr6-R,
+          serif; /* 英語書体を優先した本文 レギュラーウェイト */
+        --fontFamilyEnPrimaryBold: NicolasCochinLTPro-Black, TsukuAOldMinPr6-B,
+          serif; /* 英語書体を優先した見出し*/
+      }
+      body {
+        margin: 3em;
+        font-size: var(--fontScaleM);
+        font-family: var(--fontFamilyJP);
+        display: flex;
+        justify-content: center;
+        line-height: 1.8; /* 本文の行間を設定 */
+      }
+      span {
+        margin-right: 2rem;
+      }
+      .L7 {
+        font-size: var(--fontScaleL7);
+      }
+      .L6 {
+        font-size: var(--fontScaleL6);
+      }
+      .L5 {
+        font-size: var(--fontScaleL5);
+      }
+      .L4 {
+        font-size: var(--fontScaleL4);
+      }
+      .L3 {
+        font-size: var(--fontScaleL3);
+      }
+      .L2 {
+        font-size: var(--fontScaleL2);
+      }
+      .L1 {
+        font-size: var(--fontScaleL1);
+      }
+      .M {
+        font-size: var(--fontScaleM);
+      }
+      .S1 {
+        font-size: var(--fontScaleS1);
+      }
+      .S2 {
+        font-size: var(--fontScaleS2);
+      }
+      .S3 {
+        font-size: var(--fontScaleS3);
+      }
+      .S4 {
+        font-size: var(--fontScaleS4);
+      }
+      .width26em {
+        max-width: 26em;
+      }
+      .width38em {
+        max-width: 38em;
+      }
+      .width80em {
+        max-width: 80em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Column</h1>
+      <h2>カラム幅を38em</h2>
+      <p class="width38em">
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+      </p>
+      <h2>カラム幅を26em</h2>
+      <p class="width26em">
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+      </p>
+      <h2>カラム幅を80em</h2>
+      <p class="width80em">
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+        これは日本語のカラム幅のサンプルです。カラム幅は日本語では33文字前後が良さそうです。例えばこれはカラム幅を38emにした場合のカラム幅になります。行間は1.8です。本文には良さそうですね！書体によって行間やカラム幅を調整してみてください。
+      </p>
+    </div>
+  </body>
+</html>

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <style>
       :root {
-        /* Font Scale */
+        /* Font Scale の設定例です 10px〜の偶数スケールや4の倍数スケールなどいろいろ自分なりにスケールを作ってみてください。*/
         --fontScaleL7: calc(1rem * 8 / 1); /* 8rem 128px */
         --fontScaleL6: calc(1rem * 8 / 2); /* 4rem 64px h1 */
         --fontScaleL5: calc(1rem * 8 / 3); /* 2.67rem 42.7px */
@@ -18,20 +18,20 @@
         --fontScaleS2: calc(1rem * 8 / 11); /* 0.8rem 12.8px */
         --fontScaleS3: calc(1rem * 8 / 12); /* 0.73rem 11.6px */
         --fontScaleS4: calc(1rem * 8 / 13); /* 0.67rem 10.66 */
-        /* Font Family */
-        --FontFamilyJP: TsukuAOldMinPr6-R, serif; /* 日本語本文 レギュラーウェイト */
-        --FontFamilyJpBold: TsukuAOldMinPr6-B, serif; /* 日本語見出し */
-        --FontFamilyEn: NicolasCochinLTPro-Regular, serif; /* 英語本文 */
-        --FontFamilyEnBold: NicolasCochinLTPro-Black, serif; /* 英語見出し */
-        --FontFamilyEnPrimary: NicolasCochinLTPro-Regular, TsukuAOldMinPr6-R,
+        /* Font Family 変数名はそれだけなにかわかるものがいいと思います。行間の情報はneccoの場合はデフォルトで設定しないことが多いです。*/
+        --fontFamilyJP: TsukuAOldMinPr6-R, serif; /* 日本語本文 レギュラーウェイト */
+        --fontFamilyJpBold: TsukuAOldMinPr6-B, serif; /* 日本語見出し */
+        --fontFamilyEn: NicolasCochinLTPro-Regular, serif; /* 英語本文 */
+        --fontFamilyEnBold: NicolasCochinLTPro-Black, serif; /* 英語見出し */
+        --fontFamilyEnPrimary: NicolasCochinLTPro-Regular, TsukuAOldMinPr6-R,
           serif; /* 英語書体を優先した本文 レギュラーウェイト */
-        --FontFamilyEnPrimaryBold: NicolasCochinLTPro-Black, TsukuAOldMinPr6-B,
-          serif;
+        --fontFamilyEnPrimaryBold: NicolasCochinLTPro-Black, TsukuAOldMinPr6-B,
+          serif; /* 英語書体を優先した見出し*/
       }
       body {
         margin: 3em;
         font-size: var(--fontScaleM);
-        font-family: var(--FontFamilyEnPrimary);
+        font-family: var(--fontFamilyEnPrimary);
         display: flex;
         justify-content: center;
         line-height: 1.8; /* 本文の行間を設定 */
