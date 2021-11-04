@@ -19,19 +19,19 @@
         --fontScaleS3: calc(1rem * 8 / 12); /* 0.73rem 11.6px */
         --fontScaleS4: calc(1rem * 8 / 13); /* 0.67rem 10.66 */
         /* Font Family */
-        --FontFamilyJP: NicolasCochinLTPro-Regular, TsukuAOldMinPr6-R, serif; /* 英語を優先した本文 */
-        --FontFamilyJpBold: TsukuAOldMinPr6-B, serif;
-        --FontFamilyEn: NicolasCochinLTPro-Regular, serif;
-        --FontFamilyEnBold: NicolasCochinLTPro-Black, serif;
+        --FontFamilyJP: TsukuAOldMinPr6-R, serif; /* 日本語本文 レギュラーウェイト */
+        --FontFamilyJpBold: TsukuAOldMinPr6-B, serif; /* 日本語見出し */
+        --FontFamilyEn: NicolasCochinLTPro-Regular, serif; /* 英語本文 */
+        --FontFamilyEnBold: NicolasCochinLTPro-Black, serif; /* 英語見出し */
         --FontFamilyEnPrimary: NicolasCochinLTPro-Regular, TsukuAOldMinPr6-R,
-          serif;
+          serif; /* 英語書体を優先した本文 レギュラーウェイト */
         --FontFamilyEnPrimaryBold: NicolasCochinLTPro-Black, TsukuAOldMinPr6-B,
           serif;
       }
       body {
         margin: 3em;
         font-size: var(--fontScaleM);
-        font-family: var(--FontFamilyJP);
+        font-family: var(--FontFamilyEnPrimary);
         display: flex;
         justify-content: center;
         line-height: 1.8; /* 本文の行間を設定 */
