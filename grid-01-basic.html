@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>CSS Grid Layout</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <meta charset="utf-8" />
     <style>
       body {
@@ -18,16 +21,16 @@
       }
 
       header {
-        background-color:#F57969;
+        background-color: #f57969;
         grid-column: 1 / 4;
         order: 1;
       }
       main {
-        background-color:#F79588;
+        background-color: #f79588;
         order: 3;
       }
       aside {
-        background-color:#FAC17C;
+        background-color: #fac17c;
       }
       .side1 {
         order: 2;
@@ -36,15 +39,19 @@
         order: 4;
       }
       footer {
-        background-color:#F8A643;
+        background-color: #f8a643;
         grid-column: 1 / 4;
         order: 5;
       }
-      @media screen and (max-width: 767px) { 
+      @media screen and (max-width: 767px) {
         .container {
           grid-template-columns: 1fr;
         }
-        header, main, .side1, .side2, footer {
+        header,
+        main,
+        .side1,
+        .side2,
+        footer {
           order: 0;
         }
       }
